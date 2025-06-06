@@ -14,19 +14,19 @@ Once cloned/downloaded, you can do some of the following within the project fold
 
 - Build and run with Go tools:
 
-```sh
-go get
-go build
-./beeweb
-```
+  ```sh
+  go get
+  go build
+  ./beeweb
+  ```
 
 - Or build with bee tool:
 
-```sh
-bee run
-```
+  ```sh
+  bee run
+  ```
 
-Open your browser and visit [http://localhost:8090](http://localhost:8090).
+Then you can open your browser and visit [http://localhost:8080](http://localhost:8080).
 
 ## Build as your site
 
