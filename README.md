@@ -4,24 +4,27 @@
 
 An open source project for official documentation website of beego app framework.
 
+:warning: ARCHIVED REPO :warning:
+
+Please note that this repo is-being or have-been replaced by [beego/beego-doc](https://github.com/beego/beego-doc) - Please DO NOT open any new Issue / PR on this repo.
+
 ## Install site locally
 
-Beego Web is a `go get` able project:
+Once cloned/downloaded, you can do some of the following within the project folder:
 
-	$ go get github.com/beego/beeweb
+- Build and run with Go tools:
 
-Switch to project root path:
+```sh
+go get
+go build
+./beeweb
+```
 
-	$ cd $GOPATH/src/github.com/beego/beeweb
+- Or build with bee tool:
 
-Build and run with Go tools:
-
-	$ go build
-	$ ./beeweb
-
-Or build with bee tool:
-
-	$ bee run
+```sh
+bee run
+```
 
 Open your browser and visit [http://localhost:8090](http://localhost:8090).
 
@@ -30,11 +33,11 @@ Open your browser and visit [http://localhost:8090](http://localhost:8090).
 This project can be easily transferred as your own documentation site, there are some tips that you may want to know:
 
 - In the file `conf/app.ini`:
-	
+
 	- `lang -> types`: languages that you want to support
 	- `lang -> names`: user-friendly name of languages.
 	- It's **NOT** necessary but if you want to you can use GitHub app keys as following format:
-		
+
 			[github]
 			client_id=1862bcb2******f36c
 			client_secret=308d71ab53ccd858416cfceaed52******53c5f
